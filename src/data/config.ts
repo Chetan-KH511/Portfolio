@@ -1,0 +1,56 @@
+const config = {
+  title: "Chetan | Software Developer",
+  description: {
+    long: "Explore the portfolio of Chetan, a B.E. Information Science and Engineering student at RVITM, Bangalore with hands-on experience in software development, problem-solving, and building innovative projects. Strong analytical skills, effective communication, and a passion for learning new technologies.",
+    short:
+      "Discover the portfolio of Chetan, a passionate Software Developer specializing in Java, Python, and innovative tech solutions.",
+  },
+  keywords: [
+    "Chetan",
+    "Chetan Rvitm",
+    "Chetan portfolio",
+    "Chetan developer",
+    "Chetan software engineer",
+    "portfolio",
+    "Software Developer",
+    "Information Science",
+    "Rvitm Bangalore",
+    "Java Developer",
+    "Python Developer",
+    "C++",
+    "C Programming",
+    "MySQL",
+    "DSA",
+    "Data Structures",
+    "Algorithms",
+    "Problem Solving",
+    "Arduino",
+    "IoT",
+    "Smart Dustbin",
+    "Farm Management System",
+    "Machine Learning",
+    "Web Development",
+    "software engineer",
+    "sde",
+    "computer science",
+    "engineering student",
+    "Bangalore",
+    "India",
+    "Tech",
+    "Python Programming",
+    "Database Management",
+  ],
+  author: "Chetan",
+  email: "chetanbhatmb@gmail.com",
+  site: "https://chetan-portfolio.vercel.app",
+
+  get ogImg() {
+    return this.site + "/assets/seo/og-image.png";
+  },
+  social: {
+    linkedin: "https://www.linkedin.com/in/chetan-bhat-a97380284",
+    twitter: "https://x.com/ChetanBhat59537/",
+    github: "https://github.com/Chetan-KH511",
+  },
+};
+export { config };
