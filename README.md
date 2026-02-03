@@ -48,20 +48,6 @@
   <img src="public\assets\nav-link-previews\landing.png" alt="Hero preview" width="800" style="max-width:100%; border-radius:8px; box-shadow: 0 8px 24px rgba(0,0,0,0.35)"/>
 </p>
 
-This repository hosts my **personal 3D portfolio website**, designed to reflect my creativity and technical expertise through immersive, responsive design and fluid animations.
-
-At its core lies a **custom-built 3D interactive keyboard** (<u><a href="https://app.spline.design/file/b75b8877-3ed4-45ba-a50f-6e98972e48f7" target="_blank">download here</a></u>) made in **Spline**. Each keycap maps to a skill and reveals a title and short description on hover, offering visitors a fun and engaging way to explore my skillset.
-
-**Key Features**
-- **Custom 3D Spline Keyboard**: interactive keycaps implemented with Spline Runtime; hover to reveal skill metadata.
-- **Smooth Motion & Interactions**: GSAP + Framer Motion power scroll-triggered reveals and micro-interactions.
-- **Space-inspired Visual Theme**: subtle particle system and dark, minimal aesthetic.
-- **Responsive & Accessible**: Tailwind CSS and component-driven UI for consistent behavior across devices.
-- **Validated Contact Flow**: contact form handled via Resend API, input validated with Zod.
-- **Realtime Utilities**: Socket.io integrated for realtime features where applicable.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ## Tech Stack
 | Layer | Tools |
@@ -168,55 +154,6 @@ yarn start
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-## Deployment (Vercel)
-
-1. Push your repository to GitHub.
-
-2. Go to [Vercel](https://vercel.com/) → *New Project*.
-
-3. Import your repository.
-
-4. Add your environment variables under **Settings → Environment Variables**.
-
-5. Deploy — Vercel automatically handles builds, previews, and production updates.
-
->**Note**: You can enable automatic deployments for commits pushed to the main branch.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Contributing
-
-This is a personal project, but performance, accessibility, and security suggestions are welcome.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
->⭐ Don’t forget to star the repository if you found it inspiring!
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## License
-This project is open source and distributed under the <a href="https://github.com/Chetan-KH511/project_3D_developer_portfolio/blob/main/LICENSE">MIT License</a>.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-## Contact
-
-**Chetan**  |  [LinkedIn](https://linkedin.com/in/chetan-bhat-a97380284)  -  [GitHub](https://github.com/Chetan-KH511)  -  [chetanbhatmb@gmail.com](mailto:chetanbhatmb@gmail.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-## Acknowledgements
-- [Naresh Khatri](https://github.com/Naresh-Khatri/) - for open-sourcing his 3D portfolio
 
 - The open-source community for the tools that make creative web experiences possible.
 
