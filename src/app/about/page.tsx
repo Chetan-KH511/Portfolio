@@ -192,7 +192,7 @@ function Page() {
         />
       </div>
       
-      <div className="container mx-auto px-4 md:px-[50px] xl:px-[150px] text-zinc-300 pt-16 pb-10 h-[calc(100vh-120px)] overflow-hidden relative z-10 pointer-events-none">
+      <div className="container mx-auto px-4 md:px-[50px] xl:px-[150px] text-zinc-300 pt-16 pb-10 h-[calc(100vh-120px)] overflow-hidden relative z-[5] pointer-events-none">
       <div className="flex flex-col lg:flex-row gap-5 h-full pointer-events-auto">
         <aside className="w-full lg:w-1/4 flex-shrink-0">
           <div
