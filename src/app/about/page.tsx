@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import Script from "next/script";
 import { DiMongodb } from "react-icons/di";
 import {
   FaEnvelope,
@@ -175,8 +176,24 @@ function Page() {
     setToolsLoaded(true);
   }, []);
   return (
-    <div className="container mx-auto px-4 md:px-[50px] xl:px-[150px] text-zinc-300 pt-16 pb-10 h-[calc(100vh-120px)] overflow-hidden">
-      <div className="flex flex-col lg:flex-row gap-5 h-full">
+    <>
+      {/* Spline 3D Background */}
+      <Script
+        type="module"
+        src="https://unpkg.com/@splinetool/viewer@1.12.51/build/spline-viewer.js"
+        strategy="lazyOnload"
+      />
+      <div className="fixed inset-0 z-0 opacity-50">
+        {/* @ts-ignore */}
+        <spline-viewer
+          loading-anim-type="spinner-small-dark"
+          url="https://prod.spline.design/VXgl1A0Xjl7SBb2d/scene.splinecode"
+          style={{ width: "100%", height: "100%" }}
+        />
+      </div>
+      
+      <div className="container mx-auto px-4 md:px-[50px] xl:px-[150px] text-zinc-300 pt-16 pb-10 h-[calc(100vh-120px)] overflow-hidden relative z-10 pointer-events-none">
+      <div className="flex flex-col lg:flex-row gap-5 h-full pointer-events-auto">
         <aside className="w-full lg:w-1/4 flex-shrink-0">
           <div
             className="p-4 md:p-8 lg:p-10 rounded-2xl border-[.5px] border-zinc-600 h-full"
@@ -304,6 +321,7 @@ function Page() {
         </main>
       </div>
     </div>
+    </>
   );
 }
 
